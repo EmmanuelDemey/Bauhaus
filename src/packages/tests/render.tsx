@@ -31,19 +31,10 @@ export const mockReactQueryForRbac = (
   }[],
   stamps: { stamp: string }[] = [{ stamp: "stamp" }],
 ) => {
-  vi.doMock("@tanstack/react-query", async () => {
-    const actual =
-      await vi.importActual<typeof import("@tanstack/react-query")>("@tanstack/react-query");
-    return {
-      ...actual,
-      useQuery: vi.fn().mockImplementation(({ queryKey }) => {
-        if (queryKey[0] === "users-stamps") {
-          return { isLoading: false, data: stamps };
-        }
-        return { isLoading: false, data: rbac };
-      }),
-    };
-  });
+  vi.doMock("@utils/hooks/users", () => ({
+    usePrivileges: vi.fn().mockReturnValue({ privileges: rbac }),
+    useUserStamps: vi.fn().mockReturnValue({ data: stamps }),
+  }));
 };
 
 export const renderWithRouter = (component: ReactNode, initialEntries: string[] = ["/"]) => {

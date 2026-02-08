@@ -1,7 +1,5 @@
 import { render, screen } from "@testing-library/react";
 
-import { MODULES, PRIVILEGES, STRATEGIES } from "@utils/hooks/rbac-constants";
-
 import { Sims } from "../../../../model/Sims";
 import { mockReactQueryForRbac, WithRouter } from "../../../../tests/render";
 
@@ -14,10 +12,10 @@ describe("Sims Visualisation Menu", () => {
     it("can see the Back button", async () => {
       mockReactQueryForRbac([
         {
-          application: MODULES.OPERATION_SIMS,
+          application: "OPERATION_SIMS",
           privileges: [
-            { privilege: PRIVILEGES.PUBLISH, strategy: STRATEGIES.ALL },
-            { privilege: PRIVILEGES.UPDATE, strategy: STRATEGIES.ALL },
+            { privilege: "PUBLISH", strategy: "ALL" },
+            { privilege: "UPDATE", strategy: "ALL" },
           ],
         },
       ]);
@@ -45,7 +43,7 @@ describe("Sims Visualisation Menu", () => {
     it("can not see the Sims View button if defined with good stamp but no siblings", async () => {
       mockReactQueryForRbac([
         {
-          application: MODULES.OPERATION_SIMS,
+          application: "OPERATION_SIMS",
           privileges: [],
         },
       ]);
