@@ -31,7 +31,7 @@ const mockBlocker = {
   reset: vi.fn(),
 };
 
-vi.mock("react-router-dom", () => ({
+vi.mock("react-router", () => ({
   useParams: () => ({ id: "test-id-123", agencyId: "test-agency-123" }),
   useNavigate: () => mockNavigate,
   useBlocker: () => mockBlocker,

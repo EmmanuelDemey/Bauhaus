@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router";
 
 import { AdvancedSearchList } from "@components/advanced-search/home";
 import { DatePicker } from "@components/date-picker";

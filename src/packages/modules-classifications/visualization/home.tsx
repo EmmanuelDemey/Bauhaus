@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { CheckSecondLang } from "@components/check-second-lang";
 import { ErrorBloc } from "@components/errors-bloc";

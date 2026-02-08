@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { Row } from "@components/layout";
 import { Pagination } from "@components/pagination";

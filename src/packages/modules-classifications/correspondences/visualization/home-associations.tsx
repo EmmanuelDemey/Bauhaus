@@ -1,5 +1,5 @@
 import { Column } from "primereact/column";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 import { DataTable } from "@components/datatable";
 import { Row } from "@components/layout";

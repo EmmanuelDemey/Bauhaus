@@ -1,8 +1,8 @@
 import { renderWithAppContext } from "../../../tests/render";
 import ClassificationTree from "./home";
 
-vi.mock("react-router-dom", async () => {
-  const actual = await vi.importActual("react-router-dom");
+vi.mock("react-router", async () => {
+  const actual = await vi.importActual("react-router");
   return {
     ...actual,
     useParams: () => ({ id: "test-classification-id" }),

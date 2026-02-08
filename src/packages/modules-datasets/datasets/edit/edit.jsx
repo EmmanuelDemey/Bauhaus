@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 
 import { ActionToolbar } from "@components/action-toolbar";
 import { CancelButton, SaveButton } from "@components/buttons/buttons-with-icons";

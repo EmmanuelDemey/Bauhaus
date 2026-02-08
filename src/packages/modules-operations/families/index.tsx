@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router";
 
 import { Button } from "@components/buttons/button";
 import { Row } from "@components/layout";

@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 import { describe, expect, it, vi } from "vitest";
 
 import { MainMenu } from "@components/menu";
@@ -7,8 +7,8 @@ import D from "../../deprecated-locales";
 import { renderWithRouter } from "../../tests/render";
 import MenuClassifications from "./index";
 
-vi.mock("react-router-dom", async () => {
-  const actual = await vi.importActual("react-router-dom");
+vi.mock("react-router", async () => {
+  const actual = await vi.importActual("react-router");
   return {
     ...actual,
     useLocation: vi.fn(),

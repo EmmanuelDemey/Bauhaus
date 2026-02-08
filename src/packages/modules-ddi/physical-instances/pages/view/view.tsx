@@ -1,5 +1,5 @@
 import { useReducer, useRef, useMemo, useCallback, useEffect } from "react";
-import { useParams, useNavigate, useBlocker } from "react-router-dom";
+import { useParams, useNavigate, useBlocker } from "react-router";
 import { Button } from "primereact/button";
 import { useTranslation } from "react-i18next";
 import { Toast } from "primereact/toast";

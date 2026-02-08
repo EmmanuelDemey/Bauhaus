@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { connect, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 
 import { Loading } from "@components/loading";
 

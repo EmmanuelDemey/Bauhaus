@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import { beforeEach, describe, expect, it, Mock, vi } from "vitest";
 
 import { OperationsApi } from "@sdk/operations-api";
@@ -9,7 +9,7 @@ import { useTitle } from "@utils/hooks/useTitle";
 
 import { Component } from "./";
 
-vi.mock("react-router-dom", () => ({
+vi.mock("react-router", () => ({
   useParams: vi.fn(),
 }));
 

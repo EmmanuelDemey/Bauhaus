@@ -1,5 +1,5 @@
 import { Suspense, useMemo } from "react";
-import { createBrowserRouter, Navigate, Outlet, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Navigate, Outlet, RouterProvider } from "react-router";
 
 import { Loading } from "@components/loading";
 import { NotFound, UnderMaintenance } from "@components/not-found";

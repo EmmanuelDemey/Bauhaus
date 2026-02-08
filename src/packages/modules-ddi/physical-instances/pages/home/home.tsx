@@ -6,7 +6,7 @@ import { SearchableList } from "@components/searchable-list";
 import { useTitle } from "@utils/hooks/useTitle";
 
 import { useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 import { Toast } from "primereact/toast";
 import { useTranslation } from "react-i18next";
 import D from "../../../../deprecated-locales";

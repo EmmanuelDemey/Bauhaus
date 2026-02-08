@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { SeeButton } from "@components/buttons/see";
 import { CreationUpdateItems } from "@components/creation-update-items";

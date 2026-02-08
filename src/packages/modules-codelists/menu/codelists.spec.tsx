@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 import { describe, expect, it, vi } from "vitest";
 
 import { MainMenu } from "@components/menu";
@@ -8,8 +8,8 @@ import { useAuthorizationGuard } from "../../auth/components/auth";
 import { renderWithRouter } from "../../tests/render";
 import D from "../i18n/build-dictionary";
 
-vi.mock("react-router-dom", async () => {
-  const actual = await vi.importActual("react-router-dom");
+vi.mock("react-router", async () => {
+  const actual = await vi.importActual("react-router");
   return {
     ...actual,
     useLocation: vi.fn(),

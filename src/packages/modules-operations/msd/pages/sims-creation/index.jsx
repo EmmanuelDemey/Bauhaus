@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import Modal from "react-modal";
-import { useBlocker } from "react-router-dom";
+import { useBlocker } from "react-router";
 
 import { ActionToolbar } from "@components/action-toolbar";
 import { Button } from "@components/buttons/button";

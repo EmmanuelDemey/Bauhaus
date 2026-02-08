@@ -1,6 +1,6 @@
 import { Component as ReactComponent, useEffect, useState } from "react";
 import { connect } from "react-redux";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router";
 
 import { Loading } from "@components/loading";
 import { PageTitleBlock } from "@components/page-title-block";

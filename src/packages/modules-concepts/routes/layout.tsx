@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 import { I18nextProvider } from "react-i18next";
 
 import { useTheme } from "../../utils/hooks/useTheme";

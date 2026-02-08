@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 
 import { ClientSideError, ErrorBloc, GlobalClientSideErrorBloc } from "@components/errors-bloc";
 import { TextInput, UrlInputBlock } from "@components/form/input";

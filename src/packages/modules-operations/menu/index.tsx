@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 
 import { MainMenu } from "@components/menu";
 

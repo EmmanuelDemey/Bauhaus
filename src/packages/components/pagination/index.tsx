@@ -1,6 +1,6 @@
 import queryString from "query-string";
 import { useEffect, useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router";
 
 import { createAllDictionary } from "../../utils/dictionnary";
 import { Link } from "../link";

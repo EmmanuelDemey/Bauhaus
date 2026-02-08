@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import { Column } from "primereact/column";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 import { DateItem } from "@components/creation-update-items";
 import { DataTable } from "@components/datatable";

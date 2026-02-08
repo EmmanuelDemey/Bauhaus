@@ -1,5 +1,5 @@
 import "primereact/resources/themes/lara-light-blue/theme.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { useMemo } from "react";
 
 import { useTitle } from "@utils/hooks/useTitle";

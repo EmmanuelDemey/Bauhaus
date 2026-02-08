@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router";
 
 import { CheckSecondLang } from "@components/check-second-lang";
 import { Loading } from "@components/loading";

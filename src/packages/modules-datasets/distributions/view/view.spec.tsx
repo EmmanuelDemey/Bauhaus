@@ -5,7 +5,7 @@ import { PageTitleBlock } from "@components/page-title-block";
 
 import { Component } from "./view";
 
-vi.mock("react-router-dom", () => ({
+vi.mock("react-router", () => ({
   useParams: () => ({ id: "test-id" }),
   MemoryRouter: vi.fn(),
   Route: vi.fn(),

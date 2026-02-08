@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 export const OutlineButtonWithScroll = ({ id, baseUrl, children }) => {
   const navigate = useNavigate();

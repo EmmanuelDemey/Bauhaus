@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router";
 
 import { Loading } from "@components/loading";
 

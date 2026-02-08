@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import Editor from "@uiw/react-md-editor";
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router";
 
 import { CheckSecondLang } from "@components/check-second-lang";
 import { CodeDisplay } from "@components/code-display";

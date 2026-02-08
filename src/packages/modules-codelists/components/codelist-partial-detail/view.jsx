@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import { ActionToolbar } from "@components/action-toolbar";
 import { DeleteButton, ReturnButton, UpdateButton } from "@components/buttons/buttons-with-icons";

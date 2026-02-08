@@ -1,7 +1,7 @@
 // relations.test.tsx
 import { render, screen } from "@testing-library/react";
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router";
 import { vi } from "vitest";
 
 import RelationsView from "./";

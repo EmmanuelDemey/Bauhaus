@@ -1,6 +1,6 @@
 import DOMPurify from "dompurify";
 import { useCallback, useEffect, useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router";
 
 import FilterToggleButtons from "@components/filter-toggle-buttons";
 import { TextInput } from "@components/form/input";

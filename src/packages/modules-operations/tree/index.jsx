@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { Tree } from "primereact/tree";
 
 import { ActionToolbar } from "@components/action-toolbar";

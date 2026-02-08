@@ -1,4 +1,4 @@
-import { Link, Navigate, useLoaderData } from "react-router-dom";
+import { Link, Navigate, useLoaderData } from "react-router";
 
 import { AdvancedSearchList } from "@components/advanced-search/home";
 import { TextInput } from "@components/form/input";

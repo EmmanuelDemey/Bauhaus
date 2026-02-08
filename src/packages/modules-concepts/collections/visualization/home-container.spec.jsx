@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { vi } from "vitest";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import { ConceptsApi } from "@sdk/index";
@@ -9,7 +9,7 @@ import { CollectionApi } from "@sdk/new-collection-api";
 import { useSecondLang } from "@utils/hooks/second-lang";
 import { Component } from "./home-container";
 
-vi.mock("react-router-dom", () => ({
+vi.mock("react-router", () => ({
   useParams: vi.fn(),
 }));
 

@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 
 import { DatePicker } from "@components/date-picker";
 import { DisseminationStatusInput } from "@components/dissemination-status/disseminationStatus";

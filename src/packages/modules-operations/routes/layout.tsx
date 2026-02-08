@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { Outlet, useNavigation } from "react-router-dom";
+import { Outlet, useNavigation } from "react-router";
 
 import { Loading } from "@components/loading";
 

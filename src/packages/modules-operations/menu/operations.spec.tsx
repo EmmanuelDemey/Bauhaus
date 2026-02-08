@@ -1,13 +1,13 @@
 import { screen } from "@testing-library/dom";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 import { describe, expect, it, Mock, vi } from "vitest";
 
 import { Sims } from "../../model/Sims";
 import { renderWithRouter } from "../../tests/render";
 import { MenuOperations } from "./index";
 
-vi.mock("react-router-dom", async () => {
-  const originalModule = await vi.importActual("react-router-dom");
+vi.mock("react-router", async () => {
+  const originalModule = await vi.importActual("react-router");
   return {
     ...originalModule,
     useLocation: vi.fn(),
