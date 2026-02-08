@@ -76,7 +76,7 @@ describe("MenuClassifications", () => {
           },
         ],
       },
-      {},
+      undefined,
     );
   });
 
@@ -124,7 +124,7 @@ describe("MenuClassifications", () => {
           },
         ],
       },
-      {},
+      undefined,
     );
   });
 
@@ -172,7 +172,7 @@ describe("MenuClassifications", () => {
           },
         ],
       },
-      {},
+      undefined,
     );
   });
 });

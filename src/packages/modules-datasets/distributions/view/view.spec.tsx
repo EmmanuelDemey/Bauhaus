@@ -67,7 +67,7 @@ describe("Component", () => {
         titleLg1: "Title 1",
         titleLg2: "Title 2",
       },
-      {},
+      undefined,
     );
   });
 });

@@ -52,7 +52,7 @@ describe("CollectionsHome", () => {
         childPath: "concepts/collections",
         autoFocus: true,
       }),
-      {},
+      undefined,
     );
   });
 });

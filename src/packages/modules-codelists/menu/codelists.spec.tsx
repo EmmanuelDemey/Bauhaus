@@ -61,7 +61,7 @@ describe("MenuCodelists", () => {
           },
         ],
       },
-      {},
+      undefined,
     );
     expect(getByText("MainMenu Mock")).toBeTruthy();
     expect(useAuthorizationGuard).toHaveBeenCalledWith({
@@ -99,7 +99,7 @@ describe("MenuCodelists", () => {
           },
         ],
       },
-      {},
+      undefined,
     );
     expect(getByText("MainMenu Mock")).toBeTruthy();
     expect(useAuthorizationGuard).toHaveBeenCalledWith({
@@ -135,7 +135,7 @@ describe("MenuCodelists", () => {
           },
         ],
       },
-      {},
+      undefined,
     );
     expect(useAuthorizationGuard).toHaveBeenCalledWith({
       module: "CODESLIST_CODESLIST",
